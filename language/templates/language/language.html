@@ -1,0 +1,30 @@
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% translate "Multilingual Demo" %}</title>
+</head>
+
+<body>
+
+    <form action="{% url 'set_language' %}" method="post">
+        {% csrf_token %}
+
+        <select name="language" onchange="this.form.submit()">
+            <option value="en" {% if LANGUAGE_CODE == 'en' %}selected{% endif %}>English</option>
+            <option value="hi" {% if LANGUAGE_CODE == 'hi' %}selected{% endif %}>Hindi</option>
+            <option value="kn" {% if LANGUAGE_CODE == 'kn' %}selected{% endif %}>Kannada</option>
+        </select>
+    </form>
+    
+    <h1>{% translate "Welcome to my website" %}</h1>
+
+    <p>{% translate "This website supports multiple languages." %}</p>
+
+    <button>{% translate "Login" %}</button>
+
+    <button>{% translate "Register" %}</button>
+
+</body>
+</html>

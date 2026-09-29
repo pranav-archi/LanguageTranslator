@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-29 16:15+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\language\templates\language\language.html:6
+msgid "Multilingual Demo"
+msgstr ""
+
+#: .\language\templates\language\language.html:11
+msgid "Welcome to my website"
+msgstr "ನನ್ನ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಸ್ವಾಗತ."
+
+#: .\language\templates\language\language.html:13
+msgid "This website supports multiple languages."
+msgstr "ಈ ವೆಬ್‌ಸೈಟ್ ಹಲವಾರು ಭಾಷೆಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ."
+
+#: .\language\templates\language\language.html:15
+msgid "Login"
+msgstr "ಲಾಗಿನ್"
+
+#: .\language\templates\language\language.html:17
+msgid "Register"
+msgstr "ನೋಂದಣಿ"
